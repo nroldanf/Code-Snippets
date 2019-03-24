@@ -1,0 +1,43 @@
+********** GUÍA RÁPIDA DE GIT *************
+# Set up git
+git config --global user.email "email@..."
+git config --global user.name "Nombre"
+
+# Revisar estado del repositorio
+git status
+
+# Iniciar un nuevo repositorio
+git init
+
+# Crear una copia del repositorio
+git clone link
+
+# Flujo de trabajo
+3 arboles: directorio de trabajo, Index(staged files), head
+
+# Añadir al stage y hacer commit
+git add <filename>
+git add -u (solo archivos modificados y eliminados)
+git add . (solo archivos modificados y nuevos)
+git add -A (todos los archivos-nuevos, modificados y eliminados)
+
+# Enviar los cambios l repositorio
+git push origin master
+#Nota: se puede reemplazar por la rama que se desee
+# Si no se ha clonado el repositorio y se quiere enviar a uno remoto
+git remote add origin <server>
+
+# Ramas
+git merge <branch>
+git diff <source_branch> <target_branch>
+
+# Actualizar al repositorio local al commit más reciente
+git pull
+
+# Reemplaza cambios locales
+git checkout -- <filename>
+# Deshacer cambios locales y traer la última versión del servidor
+git fetch origin
+git reset --hard origin/master
+
+# 
