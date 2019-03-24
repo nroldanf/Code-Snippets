@@ -6,8 +6,13 @@ git config --global user.name "Nombre"
 # Revisar estado del repositorio
 git status
 
-# Iniciar un nuevo repositorio
+# Iniciar un nuevo repositorio desde cero
 git init
+git add <>
+git commit -m "algun mensaje descriptivo"
+# y para conectarlo con github
+git remote add origin <link>
+git push -u origin master
 
 # Crear una copia del repositorio
 git clone link
