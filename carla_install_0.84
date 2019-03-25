@@ -1,0 +1,11 @@
+Seguir instrucciones de carla coursera
+
+git clone https://github.com/carla-simulator/carla.git
+cd carla
+
+git checkout -b benchmark_branch origin/benchmark_branch
+ 
+cd PythonClient
+python setup.py sdist
+pip install dist/carla_client-0.7.1.tar.gz
+
