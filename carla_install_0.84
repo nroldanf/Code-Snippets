@@ -9,3 +9,10 @@ cd PythonClient
 python setup.py sdist
 pip install dist/carla_client-0.7.1.tar.gz
 
+agregar al path de windows:
+- C:\Users\juan.lopezl\AppData\Local\Continuum\anaconda3
+- C:\Users\juan.lopezl\AppData\Local\Continuum\anaconda3\Scripts
+
+
+****************************CARLA 0.9x******************************************
+
