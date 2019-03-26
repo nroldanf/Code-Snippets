@@ -1,5 +1,14 @@
 # Actualizar la lista de paquetes
 sudo apt-get update
 sudo apt-get dist-upgrade
+# Reiniciar la raspberry
+sudo reboot
+
 # Instalar Node.js y Node-Red
 sudo apt-get install nodejs npm
+# URL de nodered (luego de iniciarlo)
+http://127.0.0.1:1880/#
+# Encontrar la ip
+ipconfig
+# Instalar el manejador de bluetooth Blueman
+sudo apt-get install bluetooth bluez blueman
