@@ -68,3 +68,12 @@ Size of DF
 print(df.shape)
 # Or use the `len()` function with the `index` property
 print(len(df.index))
+
+
+## Descriptive statistics
+df.mean()
+df.std()
+df.describe()
+
+
+
